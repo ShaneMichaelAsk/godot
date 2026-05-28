@@ -246,6 +246,8 @@
 #include "scene/3d/jacobian_ik_3d.h"
 #include "scene/3d/label_3d.h"
 #include "scene/3d/light_3d.h"
+#include "scene/3d/lightfield_gi.h"
+#include "scene/3d/lightfield_probe.h"
 #include "scene/3d/lightmap_gi.h"
 #include "scene/3d/lightmap_probe.h"
 #include "scene/3d/limit_angular_velocity_modifier_3d.h"
@@ -657,6 +659,8 @@ void register_scene_types() {
 	GDREGISTER_CLASS(Decal);
 	GDREGISTER_CLASS(VoxelGI);
 	GDREGISTER_CLASS(VoxelGIData);
+	GDREGISTER_CLASS(LightfieldGI);
+	GDREGISTER_CLASS(LightfieldProbe);
 	GDREGISTER_CLASS(LightmapGI);
 	GDREGISTER_CLASS(LightmapGIData);
 	GDREGISTER_CLASS(LightmapProbe);
